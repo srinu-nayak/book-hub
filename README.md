@@ -470,3 +470,84 @@ Returns a response containing book details
 > - All components you implement should go in the `src/components` directory.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+
+
+## Technical Details
+
+### Routes
+
+Page            |Route              |Path
+----------------|-------------------|
+Login           |Login              |/login
+Home	        |Home	            |/
+Book Shelves	|Book Shelves       |/shelf
+Book Details	|Book Details	    |/books/:id
+Not Found	    |Not Found	        |/not-found
+
+
+
+### Routes and components
+
+**Home**
+Component   | Details                                             | state             | API (IT Bookstore)
+------------|-----------------------------------------------------|-------------------|--------------------
+Home        | Heading, paragraph, API data, icons, paragraph      | apiStatus         | -
+Header      | logo, home, bookshelves, "Logout" button            | -                 | -
+
+**Book Shelf**
+Component   | Details                                             | state                                    | API (IT Bookstore)
+------------|-----------------------------------------------------|------------------------------------------|---------------------
+Book Shelf  |                                                     | apiStatus, bookData, activeTabId         | /new
+Header      | logo, home, bookshelves, "Logout" button            | -                                        | -
+SearchInput | Search(title, author), "Search" button              | SearchInputValue                         | /search/{query}
+ActiveTabs  | filterBooks                                         | activeTabId                              | -
+BookItem    | Book Items(image, title, subtitle, rating, status)  | -                                        | -
+Loader      |    -                                                | -                                        | -
+ErrorMessage| ErrorMessage(image, paragraph)                      | -                                        | -
+
+**Book Details**
+Component   | Details                                             | state                                    | API (IT Bookstore)
+------------|-----------------------------------------------------|------------------------------------------|---------------------
+Book Details| Book Details Information - (image, tile, etc)       | -                                        | -
+Header      | logo, home, bookshelves, "Logout" button            | -                                        | -
+Loader      |    -                                                | -                                        | -
+ErrorMessage| ErrorMessage(image, paragraph)                      | -                                        | -
+
+**Not Found**
+Component   | Details                                             | state                                    | API (IT Bookstore)
+------------|-----------------------------------------------------|------------------------------------------|---------------------
+Not Found   | -                                                   | -                                        | -
+Header      | logo, home, bookshelves, "Logout" button            | -                                        | -
+
+**App**
+Component          | Details                                             | state                                    | API (IT Bookstore)
+-------------------|-----------------------------------------------------|------------------------------------------|---------------------
+bookshelvesList    | addToCart(), deleteFromCart(), resetCart()          | -                                        | -
+
+
+
+## Resources
+### Design Files
+Home, Login, Book Shelf, Book Details, Not Found
+Resources: https://www.figma.com/design/T8BdpViEZL6DhFxu0HlEPY/Book-Hub?node-id=1607-4387&t=VeV6tCJWCcuVhBKn-0
+
+### APIs
+Login, Books, Book Details, Search
+API Reference:
+https://apis.ccbp.in/login
+https://apis.ccbp.in/book-hub/top-rated-books
+https://apis.ccbp.in/book-hub/books?shelf={bookshelfName}&search={searchText}
+https://apis.ccbp.in/book-hub/books/{bookId}
+
+### Third Party Packages
+Icons (react-icons)
+Loader (react-loader-spinner)
+React Slick
+React Slider
+
+
+
+
+
+
+

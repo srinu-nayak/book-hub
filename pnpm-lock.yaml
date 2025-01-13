@@ -3239,7 +3239,7 @@ packages:
   /autoprefixer/9.8.6:
     dependencies:
       browserslist: 4.17.0
-      caniuse-lite: 1.0.30001258
+      caniuse-lite: 1.0.30001692
       colorette: 1.4.0
       normalize-range: 0.1.2
       num2fraction: 1.2.2
@@ -3678,7 +3678,7 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/4.14.2:
     dependencies:
-      caniuse-lite: 1.0.30001258
+      caniuse-lite: 1.0.30001692
       electron-to-chromium: 1.3.843
       escalade: 3.1.1
       node-releases: 1.1.75
@@ -3690,7 +3690,7 @@ packages:
       integrity: sha512-HI4lPveGKUR0x2StIz+2FXfDk9SfVMrxn6PLh1JeGUwcuoDkdKZebWiyLRJ68iIPDpMI4JLVDf7S7XzslgWOhw==
   /browserslist/4.17.0:
     dependencies:
-      caniuse-lite: 1.0.30001258
+      caniuse-lite: 1.0.30001692
       colorette: 1.4.0
       electron-to-chromium: 1.3.843
       escalade: 3.1.1
@@ -3873,16 +3873,16 @@ packages:
   /caniuse-api/3.0.0:
     dependencies:
       browserslist: 4.17.0
-      caniuse-lite: 1.0.30001258
+      caniuse-lite: 1.0.30001692
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: true
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
-  /caniuse-lite/1.0.30001258:
+  /caniuse-lite/1.0.30001692:
     dev: true
     resolution:
-      integrity: sha512-RBByOG6xWXUp0CR2/WU2amXz3stjKpSl5J1xU49F1n2OxD//uBZO4wCKUiG+QMGf7CHGfDDcqoKriomoGVxTeA==
+      integrity: sha512-A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==
   /capture-exit/2.0.0:
     dependencies:
       rsvp: 4.8.5
@@ -4046,10 +4046,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-qOhPa/Fj7s6TY8H8esGu5QNpMMQxz79h+urzrNYN6mn+9BnxlDGf5QZ+XeCDsxSjPqsSR56XOZOJmpeurnLMeg==
-  /classnames/2.3.1:
+  /classnames/2.5.1:
     dev: false
     resolution:
-      integrity: sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
+      integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
   /clean-css/4.2.3:
     dependencies:
       source-map: 0.6.1
@@ -10354,7 +10354,7 @@ packages:
     dependencies:
       autoprefixer: 9.8.6
       browserslist: 4.17.0
-      caniuse-lite: 1.0.30001258
+      caniuse-lite: 1.0.30001692
       css-blank-pseudo: 0.1.4
       css-has-pseudo: 0.10.0
       css-prefers-color-scheme: 3.1.1
@@ -11068,7 +11068,7 @@ packages:
       integrity: sha512-rkIMcQi01/+kxiTE9D3fdS959U1g7gs+/rborw++42m1O9FAQiNI/UNRZExVUoAOprn4umcXf+pFRou8i4zuBg==
   /react-slick/0.28.1_react-dom@17.0.1+react@17.0.1:
     dependencies:
-      classnames: 2.3.1
+      classnames: 2.5.1
       enquire.js: 2.1.6
       json2mq: 0.2.0
       lodash.debounce: 4.0.8
