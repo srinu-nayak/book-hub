@@ -2,7 +2,7 @@ import {Route, Switch, Redirect} from 'react-router-dom'
 
 import Home from './components/Home'
 import Login from './components/Login'
-import Header from './components/Header'
+// import Header from './components/Header'
 import BookDetails from './components/BookDetails'
 import BookShelf from './components/BookShelf'
 import NotFound from './components/NotFound'
@@ -35,7 +35,6 @@ import './App.css'
 
 const App = () => (
   <>
-    <Header />
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/login" component={Login} />
